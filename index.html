@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Prueba tecnica</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+    <script src="/index.js" defer></script>
+  </head>
+  <body>
+    <h2>Para ver los resultados, por favor abrir la consola de las Devtools</h2>
+    <div>
+      <h3>
+        Llene un arreglo de diez posiciones con los primeros números pares
+        iniciando con el 2 y lo imprima.
+      </h3>
+      <button onclick="pairNumbersArray()">Generar</button>
+    </div>
+    <div>
+      <h3>
+        Llene una matriz de 5 columnas y 5 filas con las coordenadas de cada
+        celda y la imprima.
+      </h3>
+      <button onclick="fillMatriz()">Generar</button>
+    </div>
+    <div>
+      <h3>
+        Pida al usuario tres números entre 1 y 10 y los almacene en un arreglo
+        para luego llenar una matriz de 10 columnas y 3 filas de tal forma que
+        cada número en el arreglo corresponda al número de columnas llenas con
+        el caracter ‘*’ y luego lo imprima.
+      </h3>
+      <div>
+        <label>Ingrese tres números separados por comas ","</label>
+        <input type="text" maxlength="5" onchange="captureUserInput(event)" />
+        <button type="button" onclick="fillUserMatriz()">Generar</button>
+      </div>
+    </div>
+  </body>
+</html>
