@@ -34,7 +34,7 @@ const fillMatriz = () => {
     matrizToFill[rowIndex][columnIndex] = `${rowIndex + 1},${columnIndex + 1}`;
     //debugger;
   }
-  console.log(...matrizToFill);
+  console.table(matrizToFill);
 };
 
 let values = [];
@@ -60,5 +60,5 @@ const fillUserMatriz = () => {
       index < values[i] && (matrizToFill[i][index] = "*");
     });
   }
-  console.log(matrizToFill);
+  console.table(matrizToFill);
 };
