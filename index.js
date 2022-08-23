@@ -7,9 +7,6 @@ const pairNumbersArray = () => {
 };
 
 // const createMatriz = () => {
-//   /*Primero creamos la matriz, a diferencia de otros lenguajes,
-//     en javascrip para crear una Matriz, creamos un array dentro de cada una
-//     de las posiciones de otro Array*/
 //   let matriz = [];
 //   for (var i = 0; i < 5; i++) {
 //     matriz[i] = new Array(5);
