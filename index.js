@@ -1,7 +1,7 @@
 const pairNumbersArray = () => {
   let arr = [];
-  for (let i = 2; arr.length < 10; i++) {
-    i % 2 == 0 && arr.push(i);
+  for (let i = 1; arr.length < 10; i++) {
+     arr.push(i*2);
   }
   console.log(arr);
 };
